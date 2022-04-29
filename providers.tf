@@ -4,7 +4,7 @@ terraform {
 
 # aws 관련 기능을 가지고 있는 모듈
 provider "aws" {
-  region = var.aws_region
+  region = var.aws_region 
 }
 
 data "aws_availability_zones" "available" {

@@ -1,4 +1,4 @@
-resource "aws_vpc" "terraform-eks-vpc" {
+resource "aws_vpc" "terraform-eks-vpc" { 
   cidr_block = "10.110.0.0/16"
 
   tags = {
